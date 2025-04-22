@@ -17,7 +17,7 @@
 # GitHub overview
 This GitHub repository contains the the code, models, and graphical user interface as described in the publication: LINK
 
-Specifically, in the files above, we provide the trained models that predict toddler activity in .json format with sample python code to demonstrate the feature extraction and model use. Additionally, we provide the open source code for Little Movers Activity Analysis, a graphical user interface to run the models without needing to code. The directly downloadable compiled versions of Little Movers Activity Analysis are available under "Releases". The copyright statement and terms of use apply to all code, models, files, and materials provided in this repository (See LICENSE).
+Specifically, in the files above, we provide the trained models that predict toddler activity in .json format with sample python code to demonstrate the feature extraction and model use. Additionally, we provide the open source code for Little Movers Activity Analysis, a graphical user interface to run the models without needing to code. The directly downloadable compiled versions of Little Movers Activity Analysis are available under "Releases". The trained models are also available in the "Releases". The copyright statement and terms of use apply to all code, models, files, and materials provided in this repository (See LICENSE).
 
 # Little Movers Activity Analysis
 ### Overview
@@ -79,7 +79,7 @@ Please cite any use of our models and Little Movers Activity Analysis by citing 
 
 # How to run Little Movers Activity Analysis from the code
 
-You will need python 3 installed on your machine, then install the requirements:
+Download and unzip the models from the Releases and add to the base directory, such that the folder "models" is at the root and contains .json files. You will need python 3 installed on your machine, then install the requirements:
 
 ```
 pip install -r requirements.txt
