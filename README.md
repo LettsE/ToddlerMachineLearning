@@ -15,13 +15,13 @@
 
 
 # GitHub overview
-This GitHub repository contains the the code, models, and graphical user interface as described in the publication: LINK
+This GitHub repository contains the the code, models, and graphical user interface as described in the publication: https://doi.org/10.1101/2025.04.24.25326266
 
-Specifically, in the files above, we provide the trained models that predict toddler activity in .json format with sample python code to demonstrate the feature extraction and model use. Additionally, we provide the open source code for Little Movers Activity Analysis, a graphical user interface to run the models without needing to code. The directly downloadable compiled versions of Little Movers Activity Analysis are available under "Releases". The trained models are also available in the "Releases". The copyright statement and terms of use apply to all code, models, files, and materials provided in this repository (See LICENSE).
+Specifically, we provide the trained models that predict toddler activity in .json format with sample python code to demonstrate the feature extraction and model use. Additionally, we provide the open source code for the Letts Little Movers Activity Analysis tool, a graphical user interface to run the models without needing to code. The directly downloadable compiled versions of Little Movers Activity Analysis are available under "Releases". The trained models are also available in the "Releases". The copyright statement and terms of use apply to all code, models, files, and materials provided in this repository (See [LICENSE](https://github.com/LettsE/ToddlerMachineLearning/blob/main/LICENSE)).
 
 # Little Movers Activity Analysis
 ### Overview
-Little Movers Activity Analysis is a graphical user interface that allows for the estimation of toddler sedentary time and physical activity using machine learning models. The preprint of the paper which outlines the details of the model development can be found here: LINK.
+Little Movers Activity Analysis is a graphical user interface that allows for the estimation of toddler sedentary time and physical activity using machine learning models. The preprint of the paper which outlines the details of the model development can be found here: https://doi.org/10.1101/2025.04.24.25326266.
 
 ### What input data is supported?
 Currently, Little Movers Activity Analysis only supports .gt3x files recorded at a 30Hz sampling frequency. We are working to allow for other sampling frequencies and using a csv file input to allow for compatibility with other devices.
@@ -71,10 +71,10 @@ Only generated when a logbook/diary is used to remove nonwear time:
 
 
 ### Can anyone use the models and Little Movers Activity Analysis?
-Yes, anyone can use both the models (using sample code provided) and the Little Movers Activity Analysis tool provided that they agree to and follow the copyright and Terms of Use and that they cite the paper associated with the models. 
+Yes, anyone can use both the models (using sample code provided) and the Letts Little Movers Activity Analysis tool provided that they agree to and follow the copyright and Terms of Use (See [LICENSE](https://github.com/LettsE/ToddlerMachineLearning/blob/main/LICENSE)) and that they cite the paper associated with the models. 
 
 ### How do I cite using these models?
-Please cite any use of our models and Little Movers Activity Analysis by citing the originating publication: Elyse Letts, Sara King-Dowling, Natascja Di Cristofaro, Patricia Tucker, John Cairney, Dylan Kobsar, Brian W. Timmons, Joyce Obeid. (2025) Development and accuracy of a novel machine learning model to detect toddlers’ physical activity and sedentary time using accelerometers: Little Movers Activity Analysis. *medRxiv.* LINK
+Please cite any use of our models and Little Movers Activity Analysis by citing the originating publication: Elyse Letts, Sara King-Dowling, Natascja Di Cristofaro, Patricia Tucker, John Cairney, Dylan Kobsar, Brian W. Timmons, Joyce Obeid. (2025) Development and accuracy of a novel machine learning model to detect toddlers’ physical activity and sedentary time using accelerometers: Little Movers Activity Analysis. *medRxiv.* https://doi.org/10.1101/2025.04.24.25326266 
 
 
 # How to run Little Movers Activity Analysis from the code
